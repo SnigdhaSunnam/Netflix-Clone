@@ -7,20 +7,12 @@ import  "./header.css"
 
 
 
-const langOption = [
-    {
-        label: "English",
-        value: "eng",
-
-    },
-    {
-        label: "Hindi",
-        value: "hin",
-    },
-];
 
 const Header = () => {
     
+       
+    
+
     return (
 
         <div className="header">
@@ -28,9 +20,15 @@ const Header = () => {
             <div className="header-logo"><img src={NetflixIcon}></img></div>
 
             <div className="header-actions">
+                
+                    <select>
+                        <option value=" ">English</option>
+                        <option value=" ">Hindi</option>
+                    </select>
+                
 
                 <Button label={"Sign In"} />
-                {/* <Dropdown options={langOption} /> */}
+                {/*<Dropdown options={langOption} /> */}
 
               
             </div>

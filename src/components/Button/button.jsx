@@ -4,6 +4,7 @@ const Button = ({ label }) => {
     return (
         <>
             <button className="Button">{label}</button>
+            
         </>
     )
 }

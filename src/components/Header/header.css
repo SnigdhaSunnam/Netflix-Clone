@@ -9,4 +9,13 @@
 .header-logo img{
  height: 90px;
  width: 200px;
+ cursor: pointer;
+}
+
+.header-actions{
+    text-align: right;
+}
+
+.Sign In{
+    text-align: right;
 }

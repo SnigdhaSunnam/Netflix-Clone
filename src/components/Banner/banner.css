@@ -2,6 +2,50 @@
     background-image: url("../../assets/images/netflixbackgrnd.jpg");
     width: 100vw;
     height: 100vh;
-
-
+    position: absolute;
+   
+} 
+/* .Banner ::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);;
+} */
+.header-actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
 }
+
+.banner_content{
+    width: 50%;
+    padding: 0px 40px;
+    margin-top:80px ;
+}
+.banner_heading{
+    font-size: 90px;
+    color:white;
+    text-align: center;
+    
+}
+.banner_subheading{
+    font-size: 40px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner_subheading-1{
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+

@@ -1,4 +1,19 @@
-.Button{
-    background-color: red;
-    
+.Button {
+
+        border-radius: 4px;
+        color: white;
+        background-color: rgb(241, 21, 21);
+        transition: all 0.3s linear;
+        padding: 10px 12px;
+        font-size: 14px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
 }
+
+.Button :hover{
+        background-color: rgb(153,22,29);;
+}
+
+
+
