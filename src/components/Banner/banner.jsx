@@ -18,6 +18,9 @@ const Banner = () => {
         <h5 className="banner_subheading-1">
         Ready to watch? Enter your email to create or restart your membership.
         </h5>
+        <div className="Address">
+        <input autocomplete="email"  type="email"  name="email" placeholder="Email Address"></input>
+        </div>
         
       
       </div>
